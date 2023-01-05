@@ -167,8 +167,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ap7kj/change_mac_address.svg?style=for-the-badge
-[contributors-url]: https://github.com/ap7kj/change_mac_address/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/nowakkines/tick-tac-toe.svg?style=for-the-badge
+[contributors-url]: https://github.com/nowakkines/tick-tac-toe/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ap7kj/change_mac_address.svg?style=for-the-badge
 [forks-url]: https://github.com/ap7kj/change_mac_address/network/members
 [stars-shield]: https://img.shields.io/github/stars/ap7kj/change_mac_address.svg?style=for-the-badge
