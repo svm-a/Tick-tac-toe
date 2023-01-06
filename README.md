@@ -14,10 +14,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Change MAC address</h3>
+  <h3 align="center">Tick-Tac-Toe/h3>
 
   <p align="center">
-    Address of your Network Interface Card instantly.
+    empty-
     <br />
     <a href="https://en.wikipedia.org/wiki/MAC_address"><strong>Explore the docs »</strong></a>
     <br />
