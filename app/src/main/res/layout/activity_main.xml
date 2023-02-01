@@ -4,48 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00BCD4"
-    android:scrollbarSize="4dp"
+    android:background="@color/yellow"
+    android:foreground="?attr/selectableItemBackground"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/toNewGame"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="56dp"
-        android:text="@string/title_new_game"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="378dp"
-        style="@style/style_button" />
-
     <ImageView
-        android:layout_width="256dp"
-        android:layout_height="256dp"
+        android:id="@+id/logo"
+        android:layout_width="333dp"
+        android:layout_height="317dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_main" />
 
     <TextView
-        android:id="@+id/toContinue"
+        android:id="@+id/toNewGame"
         style="@style/style_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="56dp"
-        android:text="@string/title_continue_game"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/titleNewGame"
+        app:layout_constraintBottom_toTopOf="@+id/toContinueGame"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="462dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/toSettings"
@@ -54,10 +42,23 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="56dp"
-        android:text="@string/title_settings"
+        android:layout_marginBottom="32dp"
+        android:text="@string/titleSettings"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="535dp" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/toContinueGame"
+        style="@style/style_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/titleContinueGame"
+        app:layout_constraintBottom_toTopOf="@+id/toSettings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
